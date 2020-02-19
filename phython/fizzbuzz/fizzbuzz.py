@@ -10,3 +10,8 @@ while x <= 100:
         print (x)
     x += 1
 
+def fizz(x)
+    if isinstance(x, Number):
+        return x % 3 == 0
+    else:
+        return False
